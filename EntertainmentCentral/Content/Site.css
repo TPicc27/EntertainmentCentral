@@ -1,4 +1,8 @@
-﻿body {
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -22,3 +26,663 @@ select,
 textarea {
     max-width: 280px;
 }
+
+nav.navbar-findcond 
+{ background: #fff; 
+  border-color: #8A2BE2; 
+  box-shadow: 0 0 2px 0 #8A2BE2;
+  font-family: 'Cabin', sans-serif;
+
+}
+nav.navbar-findcond a 
+{ 
+    color: #8A2BE2;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    line-height: 20px;
+}
+nav.navbar-findcond a:hover 
+{
+    color: black;
+    transform: scale(1.5);
+}
+nav.navbar-findcond ul.navbar-nav a 
+{ 
+    color: #8A2BE2; 
+    border-style: solid; 
+    border-width: 0 0 2px 0; 
+    border-color: #fff; 
+}
+nav.navbar-findcond ul.navbar-nav a:hover,
+nav.navbar-findcond ul.navbar-nav a:visited,
+nav.navbar-findcond ul.navbar-nav a:focus,
+nav.navbar-findcond ul.navbar-nav a:active 
+{ 
+    background: #fff;  
+}
+nav.navbar-findcond ul.navbar-nav a:hover 
+{ 
+    border-color: #8A2BE2;  
+    color: black; 
+    transform: scale(1.5);
+}
+nav.navbar-findcond li.divider 
+{ 
+    background: #ccc; 
+}
+nav.navbar-findcond button.navbar-toggle 
+{ 
+    background: #8A2BE2; 
+    border-radius: 2px; 
+}
+nav.navbar-findcond button.navbar-toggle:hover 
+{ 
+    background: #999; 
+}
+nav.navbar-findcond button.navbar-toggle > span.icon-bar 
+{ 
+    background: #fff; 
+}
+nav.navbar-findcond ul.dropdown-menu 
+{ 
+    border: 0; 
+    background: #fff; 
+    border-radius: 4px; 
+    margin: 4px 0; 
+    box-shadow: 0 0 4px 0 #ccc; 
+}
+nav.navbar-findcond ul.dropdown-menu > li > a 
+{ 
+    color: #444; 
+}
+nav.navbar-findcond ul.dropdown-menu > li > a:hover 
+{ 
+    background: #8A2BE2; 
+    color: #fff; 
+}
+nav.navbar-findcond span.badge 
+{ 
+    background: #8A2BE2; 
+    font-weight: normal; 
+    font-size: 11px; 
+    margin: 0 4px; 
+}
+nav.navbar-findcond span.badge.new 
+{ 
+    background: rgba(255, 0, 0, 0.8); 
+    color: #fff; 
+}
+
+.logo 
+{
+     display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.contenido 
+{
+    width: 100%;
+    height: 100%;
+}
+
+.backgroundslider 
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.backgroundslider li 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    animation: images 18s linear infinite;
+    -moz-animation: images 18s linear infinite;
+    -ms-animation: images 18s linear infinite;
+    -o-animation: images 18s linear infinite;
+    -webkit-animation: images 18s linear infinite;
+}
+
+.backgroundslider li:nth-child(1) 
+{
+    background-image:url("../Images/dunkirk.jpg")
+}
+
+.backgroundslider li:nth-child(2) 
+{
+    background-image:url("../Images/Damn.jpg");
+    animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+}
+.backgroundslider li:nth-child(3) 
+{
+    background-image:url("../Images/supermario.jpg");
+     animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+}
+
+.backgroundslider1 
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.backgroundslider1 li 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    animation: images 18s linear infinite;
+    -moz-animation: images 18s linear infinite;
+    -ms-animation: images 18s linear infinite;
+    -o-animation: images 18s linear infinite;
+    -webkit-animation: images 18s linear infinite;
+}
+
+.backgroundslider1 li:nth-child(1) 
+{
+    background-image:url("../Images/wonderwoman.jpg")
+}
+
+.backgroundslider1 li:nth-child(2) 
+{
+    background-image:url("../Images/starwars.jpg");
+    animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+}
+.backgroundslider1 li:nth-child(3) 
+{
+    background-image:url("../Images/getout.jpg");
+     animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+}
+
+.backgroundslider2 
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.backgroundslider2 li 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    animation: images 18s linear infinite;
+    -moz-animation: images 18s linear infinite;
+    -ms-animation: images 18s linear infinite;
+    -o-animation: images 18s linear infinite;
+    -webkit-animation: images 18s linear infinite;
+}
+
+.backgroundslider2 li:nth-child(1) 
+{
+    background-image:url("../Images/jayz.jpg")
+}
+
+.backgroundslider2 li:nth-child(2) 
+{
+    background-image:url("../Images/taylorswift.jpg");
+    animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+}
+.backgroundslider2 li:nth-child(3) 
+{
+    background-image:url("../Images/sza.jpg");
+     animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+}
+
+.backgroundslider3 
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.backgroundslider3 li 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    animation: images 18s linear infinite;
+    -moz-animation: images 18s linear infinite;
+    -ms-animation: images 18s linear infinite;
+    -o-animation: images 18s linear infinite;
+    -webkit-animation: images 18s linear infinite;
+}
+
+.backgroundslider3 li:nth-child(1) 
+{
+    background-image:url("../Images/callofduty.jpg")
+}
+
+.backgroundslider3 li:nth-child(2) 
+{
+    background-image:url("../Images/fortnite.jpg");
+    animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+}
+.backgroundslider3 li:nth-child(3) 
+{
+    background-image:url("../Images/nba2k18.jpg");
+     animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+}
+
+@keyframes images {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+
+    10%
+    {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+
+    25% 
+    {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% 
+    {
+        opacity: 0;
+        transform: scale(1) rotate(20deg);
+    }
+
+    100% 
+    {
+        opacity: 0;
+    }
+}
+@-moz-keyframes images {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+
+    10%
+    {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+
+    25% 
+    {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% 
+    {
+        opacity: 0;
+        transform: scale(1) rotate(20deg);
+    }
+
+    100% 
+    {
+        opacity: 0;
+    }
+}
+@-o-keyframes images {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+
+    10%
+    {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+
+    25% 
+    {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% 
+    {
+        opacity: 0;
+        transform: scale(1) rotate(20deg);
+    }
+
+    100% 
+    {
+        opacity: 0;
+    }
+}
+@-ms-keyframes images {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+
+    10%
+    {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+
+    25% 
+    {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% 
+    {
+        opacity: 0;
+        transform: scale(1) rotate(20deg);
+    }
+
+    100% 
+    {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes images {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+
+    10%
+    {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+
+    25% 
+    {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% 
+    {
+        opacity: 0;
+        transform: scale(1) rotate(20deg);
+    }
+
+    100% 
+    {
+        opacity: 0;
+    }
+}
+
+*[data-animation="ripple"]
+{
+    position: relative;
+    height: 90px;
+    width: 400px;
+    display: inline-block;
+    outline: none;
+    padding: 40px;
+    margin-top: 400px;
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #e570e7 0%,#79f1fc 100%);
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 14px;
+   font-family: 'Cabin', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*[data-animation="ripple"]:focus 
+{
+    outline: none;
+}
+
+*[data-animation="ripple"]::selection
+{
+    background: transparent;
+    pointer-events: none;
+}
+*[data-animation="ripple1"]
+{
+    position: relative;
+    height: 90px;
+    width: 400px;
+    display: inline-block;
+    outline: none;
+    padding: 40px;
+    margin-top: 400px;
+    margin-left: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #e570e7 0%,#79f1fc 100%);
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 14px;
+    font-family:'Cabin', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*[data-animation="ripple1"]:focus 
+{
+    outline: none;
+}
+
+*[data-animation="ripple1"]::selection
+{
+    background: transparent;
+    pointer-events: none;
+}
+
+*[data-animation="ripple2"]
+{
+    position: absolute;
+    height: 90px;
+    width: 400px;
+    display: inline-block;
+    outline: none;
+    padding: 40px;
+    margin-top: 400px;
+    margin-left: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #e570e7 0%,#79f1fc 100%);
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 14px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*[data-animation="ripple2"]:focus 
+{
+    outline: none;
+}
+
+*[data-animation="ripple2"]::selection
+{
+    background: transparent;
+    pointer-events: none;
+}
+
+.btn btn-info btn-block
+{
+    background: #8A2BE2;
+}
+
+/*Remove that CSS*/
+.col-md-3 {
+    margin-left:5%;
+    }
+/*Remove that CSS*/
+
+
+
+button {
+  margin: 20px 0;
+  line-height: 34px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  outline:none !important;
+  width:100%;
+}
+
+button:active {
+
+  outline:none;
+}
+
+button.ribbon {
+  
+  outline:none;
+  outline-color: transparent;
+}
+button.ribbon:before, button.ribbon:after {
+  top: 5px;
+  z-index: -10;
+}
+button.ribbon:before {
+  border-color: #53dab6 #53dab6 #53dab6 transparent;
+  left: -25px;
+  border-width: 17px;
+}
+button.ribbon:after {
+  border-color: #53dab6 transparent #53dab6 #53dab6;
+  right: -25px;
+  border-width: 17px;
+}
+
+button:before, button:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 0;
+  outline:none;
+}
+
+button.btn-default:before {
+  border-color: #757575 #757575 #757575 transparent;
+    }
+    button.btn-default:after {
+  border-color: #757575 transparent #757575 #757575;
+    }
+    
+    
+    
+    button.btn-primary:before {
+  border-color: #2e6da4 #2e6da4 #2e6da4 transparent;
+    }
+    button.btn-primary:after {
+  border-color: #2e6da4 transparent #2e6da4 #2e6da4;
+    }
+    
+    
+    button.btn-success:before {
+  border-color: #398439 #398439 #398439 transparent;
+    }
+    button.btn-success:after {
+  border-color: #398439 transparent #398439 #398439;
+    }
+    
+    
+    button.btn-info:before {
+  border-color: #269abc #269abc #269abc transparent;
+    }
+    button.btn-info:after {
+  border-color: #269abc transparent #269abc #269abc;
+    }
+    
+    
+    button.btn-warning:before {
+  border-color: #d58512 #d58512 #d58512 transparent;
+    }
+    button.btn-warning:after {
+  border-color: #d58512 transparent #d58512 #d58512;
+    }
+    
+    
+    button.btn-danger:before {
+  border-color: #ac2925 #ac2925 #ac2925 transparent;
+    }
+    button.btn-danger:after {
+  border-color: #ac2925 transparent #ac2925 #ac2925;
+    }

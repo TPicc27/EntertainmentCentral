@@ -6,27 +6,27 @@ using System.Web.Mvc;
 
 namespace EntertainmentCentral.Controllers
 {
-    public class HomeController : Controller
+    public class MoviesController : Controller
     {
-        // GET: Home
-        public ActionResult Index()
+        // GET: Movies
+        public ActionResult Home()
         {
             return View();
         }
 
-        // GET: Home/Details/5
+        // GET: Movies/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: Home/Create
+        // GET: Movies/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Home/Create
+        // POST: Movies/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -42,13 +42,13 @@ namespace EntertainmentCentral.Controllers
             }
         }
 
-        // GET: Home/Edit/5
+        // GET: Movies/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Home/Edit/5
+        // POST: Movies/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -64,13 +64,13 @@ namespace EntertainmentCentral.Controllers
             }
         }
 
-        // GET: Home/Delete/5
+        // GET: Movies/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Home/Delete/5
+        // POST: Movies/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {

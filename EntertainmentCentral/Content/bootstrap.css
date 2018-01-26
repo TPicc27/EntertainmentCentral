@@ -335,7 +335,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: rgb(241, 68, 68);
   text-decoration: none;
 }
 
@@ -3843,7 +3843,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #428bca;
 }
 
 .nav .nav-divider {
@@ -4172,12 +4171,18 @@ textarea.input-group-sm > .input-group-btn > .btn {
   right: 0;
   left: 0;
   border-width: 0 0 1px;
+  background: #fff;
+  border-color: #ccc;
+  box-shadow: 0 0 2px 0 #ccc;
 }
 
 @media (min-width: 768px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
+    background: #fff;
+    border-color: #ccc;
+    box-shadow: 0 0 2px 0 #ccc;
   }
 }
 
@@ -4887,6 +4892,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .badge {
+  color: rgb(241, 68, 68);
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
